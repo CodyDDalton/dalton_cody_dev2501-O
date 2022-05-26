@@ -3,21 +3,21 @@ import { PieChart, Pie, Tooltip, Legend } from 'recharts';
 
 const data01 = [
     {
-      name: "Risky Gamble",
-      expense: 8000,
-      value: "NFTs",
+        name: "Risky Gamble",
+        expense: 8000,
+        value: "NFTs",
     },
     {
-      name: "Investment",
-      value:"Stock Market",
-      expense: 3800,
-      fill: "#FFD149"
+        name: "Investment",
+        value:"Stock Market",
+        expense: 3800,
+        fill: "#FFD149"
     },
     {
-      name: "Necessity",
-      value:"Pineapples",
-      expense: 10000,
-      fill:"#8df0fd"
+        name: "Necessity",
+        value:"Pineapples",
+        expense: 10000,
+        fill:"#8df0fd"
     }
 ];
 
@@ -28,7 +28,7 @@ const MyPieChart = ({myPieChart}) =>{
                 <PieChart width={350} height={250}>
                     <Pie data={data01} dataKey="expense" nameKey="value" cx="50%" cy="50%" outerRadius={50} label/>
                     <Legend iconSize="4" iconType="diamond" width="85%" layout="vertical"/>
-                   <Tooltip />
+                    <Tooltip />
                 </PieChart>
         </article>
     )

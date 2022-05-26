@@ -4,28 +4,28 @@ import { LineChart, CartesianGrid, XAxis, YAxis, Tooltip, Legend, Line} from 're
 
 const data = [
     {
-      name: 'Jan',
-      income: 4000,
-      spending: 1400,
-      amt: 2400
+        name: 'Jan',
+        income: 4000,
+        spending: 1400,
+        amt: 2400
     },
     {
-      name: 'Feb',
-      income: 3000,
-      spending: 1398,
-      amt: 2210
+        name: 'Feb',
+        income: 3000,
+        spending: 1398,
+        amt: 2210
     },
     {
-      name: 'Mar',
-      income: 9800,
-      spending: 2400,
-      amt: 2500
+        name: 'Mar',
+        income: 9800,
+        spending: 2400,
+        amt: 2500
     },
     {
-      name: 'Apr',
-      income: 50,
-      spending: 5500,
-      amt: 2700
+        name: 'Apr',
+        income: 50,
+        spending: 5500,
+        amt: 2700
     }
 ];
 

@@ -12,7 +12,6 @@ import SiteIcon from "../images/lightBulbLogo.png";
 import GreenGiantAd from "../images/ads/greenGiantAd.gif";
 import HorizontalLine from "../components/HorizontalLine";
 
-
 function Reports() {
     return (
     <div style={styles.container}>
@@ -126,13 +125,13 @@ const styles={
    
     },
      nav: {
-       backgroundColor: '#111719',
-       width: '25%',
-       padding: '10px',
-       marginLeft: '-2%',
-       height: '120vh',
-       justifyContent: 'space-between'
-     },
+      backgroundColor: '#111719',
+      width: '25%',
+      padding: '10px',
+      marginLeft: '-2%',
+      height: '120vh',
+      justifyContent: 'space-between'
+    },
      linkList: {
        display: 'flex',
        flexDirection: 'row'

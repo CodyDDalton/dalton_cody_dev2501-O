@@ -81,9 +81,9 @@ const styles={
       height: '100%',
       backgroundColor: 'black'
     },
-   titleSpot: {
-       display: 'flex',
-       flexDirection: 'column'
+    titleSpot: {
+        display: 'flex',
+        flexDirection: 'column'
     },
     firstLine: {
         borderStyle: 'dashed'
