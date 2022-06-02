@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#logo{
+  background-color:rgb(194, 230, 255);
+  padding:5px;
+}
+#logo:hover{
+  background-color: white;
+  opacity: 95%;
+}
+
+#navItem{
+  color: rgb(194, 230, 255);
+  text-decoration: none;
+}
+#navItem:hover {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+#chosenText{
+  color: rgb(36, 50, 124);
+
+}
+#chosenText:hover{
+  border-bottom: 2px solid rgb(36, 50, 124);
+}
+
+#chosenItem:hover{
+  border-bottom: 2px solid white;
+}
+
+#arrow:hover{
+  background-color:rgba(255, 255, 255, 0.548);
+  padding:'5px';
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#optionText{
+  color: rgb(36, 50, 124);
+  padding: 5px;
+}
+
+#optionText:hover{
+  opacity: 95%;
+  border-bottom: 1px solid rgba(36, 50, 124, 0.8);
+}
+
+#bell:hover{
+  opacity:70%;
+}
+
+#avatar:hover{
+  opacity:70%;
+}
+
+#saveData{
+  background-color: white ;
+  font-weight: 600;
+  color: rgb(36, 50, 124);
+  border: 2px solid rgb(36, 50, 124);
+}
+
+#saveData:hover{
+  background-color: rgb(36, 50, 124);
+  color:white;
+  border: 2px solid white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
